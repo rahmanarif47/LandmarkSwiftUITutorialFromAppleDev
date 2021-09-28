@@ -19,6 +19,7 @@ struct ContentView_Previews: PreviewProvider {
             ContentView()
                 .previewDevice(PreviewDevice(rawValue: "iPhone 13"))
                 .previewDisplayName("iPhone 13")
+                .environmentObject(ModelData())
         }
     }
 }
